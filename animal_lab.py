@@ -17,11 +17,11 @@ class Dog(Animal):
     def __init__(self, name, habitat):
         super().__init__(name, habitat, "Woof!")
 
-def speak(self):
-    return f"{self.get_name()} says: {self._sound} loudly in {self.get_habitat()}"
+    def speak(self):
+        return f"{self.get_name()} says: {self._sound} loudly in {self.get_habitat()}"
 
-def fetch(self):
-    return f"{self.get_name()} is fetching the ball!"
+    def fetch(self):
+        return f"{self.get_name()} is fetching the ball!"
 
 class Cat(Animal):
     def __init__(self, name, habitat):
