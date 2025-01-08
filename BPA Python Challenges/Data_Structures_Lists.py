@@ -7,3 +7,5 @@ Find_4 = (Even_Nums[1][1])
 Find_6 = (Even_Nums[2][1])
 
 print([Find_2, Find_4, Find_6])
+
+#Used a traceback system to go back through and find the numbers and proceed to print them in brackets form.
