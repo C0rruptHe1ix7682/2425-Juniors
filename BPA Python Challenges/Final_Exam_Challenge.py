@@ -13,6 +13,8 @@ def treat_ewok():
     Moderate = Moderate
     Severe = Severe
     
+    print("This ewok's condition is {Condition}.")
+
     Condition = random.choice(Minor, Moderate, Severe)
     
     if Condition == Minor:
