@@ -1,0 +1,18 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+th, td {
+    border: 1px solid rgb(42, 7, 243);
+    padding: 10px;
+}
+th {
+    background-color: #f00909;
+}
+tr:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+}
